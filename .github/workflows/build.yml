@@ -1,6 +1,7 @@
 name: Build and Export Artifact
 
 on:
+  workflow_dispatch:
   push:
     branches: [dev]
   pull_request:
